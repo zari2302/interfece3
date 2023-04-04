@@ -1,13 +1,6 @@
-public class Apartment extends Famile implements PaymentAble{
-    public Apartment() {
-    }
+public class Apartment extends Famile implements PaymentAble {
     @Override
     public void summa() {
-        System.out.println("коммунальные услуги за месяц: 2500 сом");
+        System.out.println("коммунальные услуги за месяц: 2500 с");
     }
-    @Override
-    public void summa() {
-        System.out.println("коммунальные услуги за месяц : 2500 сом ");
-    }
-
 }
