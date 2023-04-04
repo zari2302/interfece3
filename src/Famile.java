@@ -2,9 +2,9 @@ import java.util.Arrays;
 
 public abstract class Famile {
     public abstract class Family {
-        String[] parents;
-        String[] children;
-        String adress;
+        private String[] parents;
+        private String[] children;
+        private String adress;
 
         public Family() {
         }
@@ -46,4 +46,5 @@ public abstract class Famile {
                     "adress: " + adress;
         }
 
-    }}
+    }
+}
