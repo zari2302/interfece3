@@ -6,8 +6,7 @@ public abstract class Famile {
         private String[] children;
         private String adress;
 
-        public Family() {
-        }
+
 
         public Family(String[] parents, String[] children, String adress) {
             this.parents = parents;
